@@ -3,25 +3,25 @@
 class Eurobase < Formula
   desc "Eurobase CLI — EU-sovereign Backend-as-a-Service"
   homepage "https://eurobase.app"
-  version "0.6.5"
+  version "0.6.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.5/eurobase_0.6.5_darwin_arm64.tar.gz"
-      sha256 "de9fcdce1f59e79daba3bab349910a281cface03d7a68a581251fe082ed12b3a"
+      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.6/eurobase_0.6.6_darwin_arm64.tar.gz"
+      sha256 "5657e5d346bd6bfd6d2eddcdd4dbf9678e1eff6fd7297e2bfcb5ef5cd2f4c2d2"
     else
-      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.5/eurobase_0.6.5_darwin_amd64.tar.gz"
-      sha256 "d5f5716a00e9c0839400012543796b49ca789e9d716dff71ded11127149e615f"
+      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.6/eurobase_0.6.6_darwin_amd64.tar.gz"
+      sha256 "0dd498111329460da3c33c7db70589bfda84e80c71334bfa4e39394051a30b7f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.5/eurobase_0.6.5_linux_arm64.tar.gz"
-      sha256 "c6cfb29f9583d4c1fdeb0ca893a910ce60e3da0aa4e9710f87903cff61341e8b"
+      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.6/eurobase_0.6.6_linux_arm64.tar.gz"
+      sha256 "e4712b4244557c61e39e97d01da8922ad79fe37fd7b44c143e7ec371d7a17f63"
     else
-      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.5/eurobase_0.6.5_linux_amd64.tar.gz"
-      sha256 "ca60ac6d85c53292a094bdc76f2200acc43b4f00bc9e4a1d84c83b872c3ac513"
+      url "https://github.com/STGime/homebrew-tap/releases/download/cli-v0.6.6/eurobase_0.6.6_linux_amd64.tar.gz"
+      sha256 "b3316a23d91b4f3438e6f5873a7fd83405cdad7df48f8838c363db5dc4dea1d1"
     end
   end
 
